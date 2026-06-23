@@ -1,6 +1,6 @@
-# Kanji
+# Kurokku
 
-Kanji is an ESP32 based Wi-Fi smart clock. Featuring E-ink display, it can pull weather data, calendar and display realtime clock. It is designed to be a simple and elegant clock that can be placed on a desk. There's also a SHT40 temperature and humidity sensor to provide more information.
+Kurokku is an ESP32 based Wi-Fi smart clock. Featuring E-ink display, it can pull weather data, calendar and display realtime clock. It is designed to be a simple and elegant clock that can be placed on a desk. There's also a SHT40 temperature and humidity sensor to provide more information.
 
 Case was not designed and it's intended to just directly use screw as stand.
 

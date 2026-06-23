@@ -5,6 +5,184 @@
 	(uuid "cef5ce01-1cae-4631-820a-c6fe4b301c93")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:MBR0530"
 			(pin_numbers
 				(hide yes)
@@ -1262,7 +1440,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Resistors:0603,1MΩ"
+		(symbol "PCM_JLCPCB-Resistors:0603,10kΩ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1285,7 +1463,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1MΩ"
+			(property "Value" "10kΩ"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -1306,7 +1484,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1317,7 +1495,7 @@
 					)
 				)
 			)
-			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1MΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1328,7 +1506,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C22935"
+			(property "LCSC" "C25804"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1339,7 +1517,7 @@
 					)
 				)
 			)
-			(property "Stock" "3961571"
+			(property "Stock" "51181774"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1427,7 +1605,7 @@
 					)
 				)
 			)
-			(property "Part" "0603WAF1004T5E"
+			(property "Part" "0603WAF1002T5E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1438,7 +1616,7 @@
 					)
 				)
 			)
-			(property "Resistance" "1MΩ"
+			(property "Resistance" "10kΩ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1526,7 +1704,7 @@
 					)
 				)
 			)
-			(symbol "0603,1MΩ_0_1"
+			(symbol "0603,10kΩ_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -1539,7 +1717,7 @@
 					)
 				)
 			)
-			(symbol "0603,1MΩ_1_1"
+			(symbol "0603,10kΩ_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3456,197 +3634,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:CYL104R-47UH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CYL104R-47UH"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:IND-SMD_L10.5-W10.5"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7431100.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CYL104R-47UH"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C7431100"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Inductors (SMD)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CYL104R-47UH_0_1"
-				(arc
-					(start -4.06 0.01)
-					(mid -3.035 1.0102)
-					(end -2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.03 0.01)
-					(mid -1.005 1.0102)
-					(end 0 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.01)
-					(mid 1.0249 1.0101)
-					(end 2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.03 0.01)
-					(mid 3.0549 1.0101)
-					(end 4.06 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5739,12 +5726,6 @@
 		(uuid "3e563888-dcd4-4473-b7f3-5e479d18110b")
 	)
 	(junction
-		(at 154.94 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42712eaa-621c-4b9d-861a-f3108e0a8cc1")
-	)
-	(junction
 		(at 223.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5841,6 +5822,12 @@
 		(uuid "a941a1f0-3fb9-4c6d-9897-affc14b947ae")
 	)
 	(junction
+		(at 154.94 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab8bec2c-36d3-4184-8ecc-017e2ecf53c1")
+	)
+	(junction
 		(at 104.14 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5926,6 +5913,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02307cc7-e45b-4088-9a65-6fbb53c7e2a4")
+	)
+	(wire
+		(pts
 			(xy 73.66 153.67) (xy 73.66 156.21)
 		)
 		(stroke
@@ -6003,16 +6000,6 @@
 			(type default)
 		)
 		(uuid "11b25b08-fe61-4058-9139-f610c424df6d")
-	)
-	(wire
-		(pts
-			(xy 182.88 125.73) (xy 185.42 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1233da14-5ad4-443c-99dd-d032b5e33d92")
 	)
 	(wire
 		(pts
@@ -6146,6 +6133,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 147.32) (xy 154.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbbe7f6-edf0-4456-92a4-2132032fd57c")
+	)
+	(wire
+		(pts
 			(xy 78.74 156.21) (xy 73.66 156.21)
 		)
 		(stroke
@@ -6156,7 +6153,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 120.65) (xy 100.33 120.65)
+			(xy 93.98 120.65) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6456,6 +6453,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 147.32) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b390da-3ef5-4b25-a8a0-88eeff2a94c8")
+	)
+	(wire
+		(pts
 			(xy 223.52 156.21) (xy 223.52 152.4)
 		)
 		(stroke
@@ -6513,6 +6520,16 @@
 			(type default)
 		)
 		(uuid "90f0160c-e26f-4a22-a77b-77dbecfaa889")
+	)
+	(wire
+		(pts
+			(xy 148.59 135.89) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f779e7-98e1-45bc-a001-c239dcfb0b21")
 	)
 	(wire
 		(pts
@@ -6676,6 +6693,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 140.97) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19d1217-21ac-445e-9ba7-fb5a19a14f1e")
+	)
+	(wire
+		(pts
 			(xy 78.74 153.67) (xy 78.74 156.21)
 		)
 		(stroke
@@ -6813,16 +6840,6 @@
 			(type default)
 		)
 		(uuid "c0a810f9-497f-45ff-831d-0cc6feaaf310")
-	)
-	(wire
-		(pts
-			(xy 185.42 151.13) (xy 185.42 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a18a8d-595a-4ebc-885e-2ae53b8432dd")
 	)
 	(wire
 		(pts
@@ -7056,17 +7073,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 140.97) (xy 185.42 143.51)
+			(xy 154.94 147.32) (xy 154.94 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5b44f8d-6ed4-469e-a29d-f22841b4ec3e")
+		(uuid "f169df13-9ef7-4dea-9bc7-5db4a0908b6d")
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 172.72 125.73)
+			(xy 170.18 125.73) (xy 173.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7113,6 +7130,16 @@
 			(type default)
 		)
 		(uuid "ffb09cf1-f68f-4b69-aa70-c8e7a6c5284b")
+	)
+	(label "RDSE"
+		(at 176.53 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0735274b-34e1-4d5d-934b-972f80625c7f")
 	)
 	(label "CS"
 		(at 35.56 132.08 0)
@@ -7385,7 +7412,7 @@
 		(uuid "fe690306-09c2-4912-9c77-6924ee0426c1")
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,1MΩ")
+		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
 		(at 165.1 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -7406,7 +7433,7 @@
 				)
 			)
 		)
-		(property "Value" "1MΩ"
+		(property "Value" "10kΩ"
 			(at 165.1 135.89 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7427,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 1MΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22935"
+		(property "LCSC" "C25804"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7460,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Stock" "3961571"
+		(property "Stock" "51181774"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7548,7 +7575,7 @@
 				)
 			)
 		)
-		(property "Part" "0603WAF1004T5E"
+		(property "Part" "0603WAF1002T5E"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Resistance" "1MΩ"
+		(property "Resistance" "10kΩ"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 135.89 0)
+		(at 148.59 135.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7742,7 +7769,7 @@
 		(fields_autoplaced yes)
 		(uuid "12538546-c798-45a0-987b-fdaeca42d4fb")
 		(property "Reference" "#PWR019"
-			(at 154.94 142.24 0)
+			(at 142.24 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7753,7 +7780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 140.97 0)
+			(at 147.32 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7763,7 +7790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 135.89 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 135.89 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7785,7 +7812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 135.89 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9023,7 +9050,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,2.2Ω")
-		(at 185.42 147.32 0)
+		(at 170.18 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9034,18 +9061,17 @@
 		(fields_autoplaced yes)
 		(uuid "275fcb04-1b07-4869-99e4-73fb86163007")
 		(property "Reference" "R5"
-			(at 187.96 147.3199 0)
+			(at 170.18 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2Ω"
-			(at 185.42 147.32 90)
+		(property "Value" "3Ω"
+			(at 170.18 147.32 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9055,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 183.642 147.32 90)
+			(at 170.18 149.098 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +9092,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF220KT5E_C22939.pdf"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9077,7 +9103,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±1% ±400ppm/°C 2.2Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,8 +9113,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C22939"
-			(at 185.42 147.32 0)
+		(property "LCSC" "C23157"
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9125,7 @@
 			)
 		)
 		(property "Stock" "488876"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9136,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9147,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +9158,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9169,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +9180,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9191,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9202,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +9213,7 @@
 			)
 		)
 		(property "Part" "0603WAF220KT5E"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9224,7 @@
 			)
 		)
 		(property "Resistance" "2.2Ω"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9235,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,7 +9246,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9257,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9242,7 +9268,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9279,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9264,7 +9290,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±400ppm/°C"
-			(at 185.42 147.32 0)
+			(at 170.18 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,84 +9618,6 @@
 			(project "kanji"
 				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37e7ddde-4aeb-486c-b1ad-9cb13a41fc16")
-		(property "Reference" "#PWR018"
-			(at 185.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11f98283-60e7-44fd-b215-52ff5569e781")
-		)
-		(instances
-			(project "kanji"
-				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10811,7 +10759,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 120.65 0)
+		(at 101.6 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10822,7 +10770,7 @@
 		(fields_autoplaced yes)
 		(uuid "53dabbe2-45aa-4b8a-8c92-4825c7caa62c")
 		(property "Reference" "#PWR05"
-			(at 100.33 124.46 0)
+			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +10781,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.33 115.57 0)
+			(at 101.6 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10843,7 +10791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 120.65 0)
+			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10854,7 +10802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 120.65 0)
+			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 120.65 0)
+			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11376,6 +11324,97 @@
 			(project "kanji"
 				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 177.8 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e792d4-e92c-4728-a5ba-4570f480f596")
+		(property "Reference" "L2"
+			(at 177.8 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 177.8 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2049757"
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca5711d1-a3cd-4984-a1b3-be8c4d8eee97")
+		)
+		(pin "2"
+			(uuid "d90f3678-9870-494a-b24b-192c3ad67b45")
+		)
+		(instances
+			(project "kanji"
+				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13281,119 +13320,6 @@
 			(project "kanji"
 				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CYL104R-47UH")
-		(at 177.8 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f7e558-a6d7-4f41-8695-05a6f0468c49")
-		(property "Reference" "L1"
-			(at 177.8 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CYL104R-47UH"
-			(at 177.8 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IND-SMD_L10.5-W10.5"
-			(at 177.8 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7431100.pdf"
-			(at 177.8 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 177.8 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CYL104R-47UH"
-			(at 177.8 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C7431100"
-			(at 177.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5281da64-72f0-4369-88a3-c56b951af506")
-		)
-		(pin "2"
-			(uuid "00849b71-c210-46e2-88f0-a97e3603f307")
-		)
-		(instances
-			(project "kanji"
-				(path "/cef5ce01-1cae-4631-820a-c6fe4b301c93"
-					(reference "L1")
 					(unit 1)
 				)
 			)
