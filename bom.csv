@@ -1,0 +1,4 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"Waveshare e-ink display","For displaying things. (4.26 inch B/W)",1,19.50,"https://detail.tmall.com/item.htm?from=cart&id=763853854896&mi_id=0000evqKCP1iKHChQN8zlU8k7eiaN9Pw3tzSlfQsYnoQPNw&skuId=5256424296363&upStreamPrice=13068","Taobao"
+"Seeed Xiao ESP32-S3","To drive the display & connect to web",1,8.20,"https://item.taobao.com/item.htm?from=cart&id=717378181472&mi_id=0000sOOkvg8oup2ws_yxejnEZ-Q6HdgFkvkQyJaaRKFnI_o&upStreamPrice=5500","Taobao"
+"PCB & PCBA","Make board (not sure why JLC have 20 dollar coupon now)",1,28.96,"","JLCPCB"
