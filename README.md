@@ -4,6 +4,11 @@ Kurokku is an ESP32 based Wi-Fi smart clock. Featuring E-ink display, it can pul
 
 Case was not designed and it's intended to just directly use screw as stand.
 
+![Assamble](./assets/assambly.jpg)
+
+> [!NOTE]
+> Please don't expect me to find a 3D model for e-ink display and include it.
+
 ![Driver](./assets/driver.png)
 
 ![front](./assets/front.png)
@@ -22,8 +27,8 @@ Case was not designed and it's intended to just directly use screw as stand.
 
 | Name | Qty | Total (USD) | Distributor |
 | --- | --- | --- | --- |
-| WaveShare E-Ink display & Seeed Xiao ESP32-S3 | 1 | $35.00 | Taobao (Like Aliexpress but China version) |
-| PCB Assambly | 1 | $44.84 | JLCPCB |
-| PCB | 1 | $10.56 | JLCPCB |
-| Shipping | 1 | $6.12 | JLCPCB |
-| Total | 1 | $96.52 | - |
+| [Waveshare e-ink display](https://detail.tmall.com/item.htm?from=cart&id=763853854896&mi_id=0000evqKCP1iKHChQN8zlU8k7eiaN9Pw3tzSlfQsYnoQPNw&skuId=5256424296363&upStreamPrice=13068) | 1 | 19.50 | Taobao |
+| [Seeed Xiao ESP32-S3](https://item.taobao.com/item.htm?from=cart&id=717378181472&mi_id=0000sOOkvg8oup2ws_yxejnEZ-Q6HdgFkvkQyJaaRKFnI_o&upStreamPrice=5500) | 1 | 8.20 | Taobao |
+| PCB & PCBA | 1 | 28.96 | JLCPCB |
+| Shipping | 1 | 0.5 | Taobao |
+| Total | - | 57.16 | - | 
