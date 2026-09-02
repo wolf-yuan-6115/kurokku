@@ -4,7 +4,7 @@ Kurokku is an ESP32 based Wi-Fi smart clock. Featuring E-ink display, it can pul
 
 Case was not designed and it's intended to just directly use screw as stand.
 
-![Assamble](./assets/assambly.jpg)
+![Assamble](./assets/assambly.png)
 
 > [!NOTE]
 > Please don't expect me to find a 3D model for e-ink display and include it.
